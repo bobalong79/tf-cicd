@@ -58,7 +58,7 @@ PARAMETERS
 
 resource "azurerm_resource_group" "this" {
   name              =   "Azure-Policy-Allow-RG"
-  location          =   "East US"
+  location          =   "UK South"
 }
 
 
@@ -81,7 +81,7 @@ METADATA
   parameters = <<PARAMETERS
 {
   "allowedLocations": {
-    "value": [ "East US" ]
+    "value": [ "UK South" ]
   }
 }
 PARAMETERS

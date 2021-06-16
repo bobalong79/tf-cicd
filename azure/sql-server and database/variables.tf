@@ -54,7 +54,7 @@ variable "rgVars" {
   type            =   map(string)
   default         =   {
     "Name"        =     "Sql-Rg"
-    "Location"    =     "East US"
+    "Location"    =     "UK South"
   }
 }
 

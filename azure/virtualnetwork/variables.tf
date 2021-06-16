@@ -14,7 +14,7 @@ variable "resource_group_name" {
 variable "location" {
     description =   "Location of the resource group"
     type        =   string
-    default     =   "East US"
+    default     =   "UK South"
 }
 
 variable "virtual_network_name" {

@@ -34,7 +34,7 @@ data "azurerm_client_config" "current" {}
 
 resource "azurerm_resource_group" "rg" {
     name                  =   "KeyVault-rg"
-    location              =   "East US"
+    location              =   "UK South"
     tags                  =   var.tags
 }
 

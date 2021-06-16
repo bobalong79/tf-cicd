@@ -5,7 +5,7 @@ az login --use-device-code
 
 # Vnet Peering
 
-az group create --name Vnet1-rg --location East US 
+az group create --name Vnet1-rg --location UK South
 
 az group create --name Vnet2-rg --location South India
 

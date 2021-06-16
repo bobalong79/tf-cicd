@@ -31,7 +31,7 @@ variable "rgVars" {
     type        =   map(string)
     default     =   {
         "name"      =   "Storage-Rg"
-        "location"  =   "East US"    
+        "location"  =   "UK South"
     }
 }
 

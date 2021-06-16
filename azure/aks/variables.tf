@@ -10,7 +10,7 @@ variable "env" {
 variable "rglocation" {
     description     =       "Location of RG"
     type            =       string
-    default         =       "East US"
+    default         =       "UK South"
 }
 
 variable "tags"   {
