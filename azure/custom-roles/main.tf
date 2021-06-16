@@ -29,5 +29,5 @@ resource "azurerm_role_definition" "custom" {
 resource "azurerm_role_assignment" "custom" {
     scope               =   data.azurerm_subscription.primary.id
     role_definition_id  =   azurerm_role_definition.custom.id
-    principal_id        =   "1234-5678-9012344"
+    principal_id        =   "a63be528-a587-492d-9149-f8c5ba6ecc024"
 }
