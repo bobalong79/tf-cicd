@@ -28,6 +28,6 @@ resource "azurerm_role_definition" "custom" {
 
 resource "azurerm_role_assignment" "custom" {
     scope               =   data.azurerm_subscription.primary.id
-    role_definition_id  =   azurerm_role_definition.custom.id
+    role_definition_id  =   split("|", azurerm_role_definition.custom.id)[0]
     principal_id        =   "a63be528-a587-492d-9149-f8c5ba6ecc02"
 }
