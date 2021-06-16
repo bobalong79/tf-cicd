@@ -8,7 +8,7 @@ data "azurerm_subscription" "primary" {}
 
 resource "azurerm_role_definition" "custom" {
     name                    =       "Custom role for Users"
-    scope                   =       "/subscriptions/0ec9060d-76d6-49a1-918f-b6f54720e87e/resourceGroups/Test1-rg"
+    scope                   =       "/subscriptions/0ec9060d-76d6-49a1-918f-b6f54720e87e/resourceGroups/Terraform-rg"
     description             =       "Custom Role for Users to restrict access"
 
     permissions {
@@ -22,7 +22,7 @@ resource "azurerm_role_definition" "custom" {
         not_data_actions    =     ["Microsoft.Compute/virtualMachines/loginAsAdmin/action"]
     }
 
-    assignable_scopes       =   ["/subscriptions/0ec9060d-76d6-49a1-918f-b6f54720e87e/resourceGroups/Test1-rg"]
+    assignable_scopes       =   ["/subscriptions/0ec9060d-76d6-49a1-918f-b6f54720e87e/resourceGroups/Terraform-rg"]
 
 }
 
