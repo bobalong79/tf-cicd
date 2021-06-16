@@ -46,22 +46,22 @@ module "windows-server" {
 
 
 
-module "aks" {
-    source    =     "./azure/aks"
-    env       =     "dev"
-}
+# module "aks" {
+#     source    =     "./azure/aks"
+#     env       =     "dev"
+# }
 
 
 
-module "customrole" {
-    source  =   "./azure/custom-roles"
-}
+# module "customrole" {
+#     source  =   "./azure/custom-roles"
+# }
 
-module "provisioners" {
-    source  =   "./azure/provisioners-example"
-}
+# module "provisioners" {
+#     source  =   "./azure/provisioners-example"
+# }
 
-module "linuxvm" {
-    source  =   "./azure/linuxVM"
-}
+# module "linuxvm" {
+#     source  =   "./azure/linuxVM"
+# }
 
