@@ -54,7 +54,7 @@ resource "azurerm_network_security_group" "nsg" {
     protocol                    =       "Tcp"
     source_port_range           =       "*"
     destination_port_range      =       22
-    source_address_prefix       =       "REPLACE_WITH_YOUR_PUBLICIP" 
+    source_address_prefix       =       "62.6.178.126"
     destination_address_prefix  =       "*"
     }
 }
