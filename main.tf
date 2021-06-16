@@ -40,9 +40,9 @@ module "windows-server" {
     source  =   "./azure/WindowsServer2019"
 }
 
-module "winvm" {
-    source =    "./azure/Windows10-ExistingInfra"
-}
+// module "winvm" {
+//     source =    "./azure/Windows10-ExistingInfra"
+// }
 
 
 
